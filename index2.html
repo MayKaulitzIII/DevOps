@@ -1,0 +1,57 @@
+<!DOCTYPE.html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Formulários</title>>
+    </head>
+    <body>
+        <h3>Formulários</h3>
+        <form action="servidor" method="POST"> <!--action direciona uma informação para um arquivo-->
+            
+            <label>Digite o nome</label><!--Texto que queira digitar-->
+            <input type="text"
+            name="name_user"
+            id=name_user 
+            maxlength="3"
+            placeholder = "Digite seu nome"
+            size = "15"
+            required="true"><br/>
+            
+            <label>Senha: </label>
+            <input type="password"
+            name ="senha_user"
+             id= "s_user"
+            maxlength="5"><br/>
+           
+            <input type= "submit" value= "OK" ><!--Submit adiciona um botão de enviar-->
+            <br/><label>Observações sjbcisjudaxbciuaskj</label><br/>
+            <textarea>Digite algoeusadnbqwnbcoiew4</textarea><br/>
+            <label>Estado:</label><br/>
+            <select>
+                <option value="SP">São Paulo</option>
+                <option value="RJ">Rio de Janeiro</option>
+                <option value="MG">MInas Gerais</option>
+                <option value="RS">Rio Grande do Sul</option>
+            </select>
+            <label>Selecione a disciplina wquohiucsagbciyw:</label><br/>
+            <input type="checkbox" value="TecW">TecWeb<br/>
+            <input type="checkbox" value="DevOp">DevOps<br/>
+            <input type="checkbox" value="LpII II">Linguagem de Programação II<br/>
+            <input type="checkbox" value="Eng">Engenharia de Software<br/>
+           
+            <label>Selecione uma linguagem: hwsuqohb    cu</label><br/><br/>
+            <input type="radio" name="opcao"value="Jav">Java<br/><br/>
+            <input type="radio" name="opcao" value="Payt">Python<br/><br/>
+            <input type="radio" name="opcao"value="C">C#<br/><br/>
+            <input type="radio" name="opcao"value="KOB">Kobol<br/><br/>
+            <br/>
+            <label>E-mail:</label>
+            <input type="email"name="email">
+            
+            <input type="submit" value="Enviar Agora">
+            <button type="reset" value="limpar"><br/>
+            <button onclick ="">Enviar</button>
+            
+        </form>
+    </body>
+</html>
